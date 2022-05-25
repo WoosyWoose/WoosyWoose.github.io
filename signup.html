@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up | Woose Globe</title>
+        <link rel="stylesheet" href="styles_signup.css">
+        <link rel="shortcut icon" href="/media/WG_short.png">
+    </head>
+        
+    
+    
+    
+    <body>
+        <header>
+            <a href="index.html"><img class="Logo" src="/media/logo_WG1.png" title="Logo" height="90" width="90"></a>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="events_page.html">Events</a></li>
+                    <li><a href="#">Places</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!-- <li><a href="#">Contact</a></li>
+                    <li><a href="#">My Account</a></li> -->
+                </ul>
+            </nav>
+        </header>
+
+
+        <section>
+            <aside>
+                <div class="signup_form">
+                    <form method="post" action="test.java">
+                        <p>
+                            <h1>Sign Up</h1>
+                            <fieldset>
+                                <!-- <legend>Sign Up</legend> -->
+
+                                <label for="first_name">First Name :</label>
+                                <input type="text" name="first_name" id="first_name" minlength="2" maxlength="20" required/><br><br>
+
+                                <label for="last_name">Last Name :</label>
+                                <input type="text" name="last_name" id="last_name" minlength="2" maxlength="20" required/><br><br>
+
+                                <label for="email">Email :</label>
+                                <input type="email" name="email" id="email" required/><br><br>
+
+                                <label for="username">Username :</label>
+                                <input type="text" name="username" id="username" minlength="3" maxlength="20" required/><br><br>
+
+                                <label for="password">Password :</label>
+                                <input type="password" name="password" id="password" minlength="8" maxlength="30" required/><br><br>
+                                
+                                <label for="password">Confirm password :</label>
+                                <input type="password" name="confirm_password" id="confirm_password" minlength="8" maxlength="30" required/><br><br>
+                                                           
+                                <input type="checkbox" required/><label>: Cochez pour continuer</label> <br><br>
+
+                                <input type="submit" value="Sign Up">
+                            </fieldset>
+                        </p>
+                        <p>Already have an account? <a class="login" href="index.html">Log In</a></p>
+                    </form>
+                </div>
+            </aside>       
+        </section>
+        <footer><p>Woose Globe © 2022</p></footer>
+    </body>
+</html>
